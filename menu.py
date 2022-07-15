@@ -25,7 +25,6 @@ class Menu():
 
             # Обработка начала работы алгоритма
             elif event.type == pygame.MOUSEBUTTONDOWN and event.button == 1 and self.control_glider(pos, 20, 900, 75):
-                print("in start")
                 if globals.start:
                     globals.start = False
                 else:
@@ -33,14 +32,11 @@ class Menu():
 
             # Обработка изменения скорости воспроизведения
             elif self.control_reg_speed(pos) and event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
-                print("in tut 1")
                 self.reg_make = True
             elif event.type == pygame.MOUSEMOTION and self.reg_make and pos[0] < 975 and pos[0] > 825:
-                print("in tut 2")
                 self.coord_reg_x = pos[0]
                 globals.card += event.rel[0] * (-0.1)
             elif event.type == pygame.MOUSEBUTTONUP and event.button == 1 and self.reg_make:
-                print("in tut 3")
                 self.reg_make = False
                 globals.card = max(1, round(globals.card))
 

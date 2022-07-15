@@ -3,7 +3,7 @@ class Globals():
         self.W = 800
         self.H = 600
         self.W_and_M = 1000
-        self.size = 10
+        self.size = 5
         self.card = 8
         self.start = False
         self.gl = False
