@@ -18,6 +18,11 @@
   - Orion
   - Cosper gun
 
+Для запуска клонируйте репозиторий и введите в терминале:
+  ```
+      python3 main.py
+  ```
+
 ![Гифка к проекту](https://github.com/SofiHaku/StateMachines/blob/master/assets/screen/2.gif)
 
 ### Правила
