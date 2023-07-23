@@ -7,7 +7,7 @@ class Globals():
         self.W_and_M = 1000
 
         # Размер клетки
-        self.size = 5
+        self.size = 10
         # Количество кадров, которые показываются на одну позу жизни
         self.card = 8
 
