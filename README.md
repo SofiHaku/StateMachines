@@ -1,7 +1,7 @@
 ## Игра "Жизнь" (Джон Конвей)
 
 ### Описание
-![Иллюстрация к проекту](./asserts/screen/1.png)
+![Иллюстрация к проекту](https://github.com/SofiHaku/StateMachines/blob/master/assets/screen/1.png)
 
 Реализация класического Тьюринг-полного клеточного автомата со множеством шаблонов.
   - Gliber
@@ -18,7 +18,7 @@
   - Orion
   - Cosper gun
 
-![Гифка к проекту](./asserts/screen/2.gif)
+![Гифка к проекту](https://github.com/SofiHaku/StateMachines/blob/master/assets/screen/2.gif)
 
 ### Правила
 
